@@ -68,6 +68,11 @@ p {
 	background-color: #111111 !important;
 }
 
+.navbar-default .navbar-nav>.active>a {
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
 /*HEADER*/
 
 .header {
@@ -235,3 +240,82 @@ p {
 		padding: 30px;
 	}
 }
+
+/*EXPERIENCE*/
+
+.experience {
+	padding: 0 0 50px;
+	background-color: #3399ff;
+}
+
+.experience h1 {
+	background-color: #f0ad4e;
+	border-radius: .25em;
+	color: #fff;
+	text-align: center;
+	width: 50px;
+}
+
+.experience h2 {
+	font-family: 'Playfair Display', serif;
+	margin: 50px 0 30px;
+}
+
+.experience p {
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+/*CLIENTS*/
+
+.clients {
+	background-color: #222222 !important;
+	padding: 25px;
+	text-align: center;
+	height: 450px;
+	padding: 50px 0 50px;
+}
+
+.clients h2 {
+	font-family: 'Playfair Display', serif;
+	color: #fff !important;
+	margin-bottom: 20px;
+}
+
+.clients p {
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 60px;
+	color: #fff !important;
+}
+
+.clients .text-center {
+	height: 150px;
+}
+
+.clients img {
+	width: 150px;
+	opacity: 0.6;
+	cursor: pointer;
+	transition: all 800ms ease-in-out;
+}
+
+.clients .text-center:hover img {
+	opacity: 1;
+}
+
+.clients .trusted p {
+	text-align: center;
+}
+
+.clients #adidas {
+	margin-top: 36px;
+}
+
+.clients #unicredit {
+	margin-top: 63px;
+}
+
+.clients #liberty {
+	margin-top: 25px;
+}
+

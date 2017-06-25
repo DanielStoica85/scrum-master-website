@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <div id="myNavbar" class = "navbar navbar-default navbar-fixed-top" role = "navigation">
     <div class="container">
@@ -38,6 +38,7 @@
           <li><a href = "#header">Home</a></li>
           <li><a href = "#aboutme">About me</a></li>
           <li><a href = "#services">Services</a></li>
+          <li><a href = "#experience">Experience</a></li>
           <li><a href = "#resume">Resume</a></li>
           <li><a href = "#contact">Contact</a></li>
         </ul>
@@ -177,16 +178,155 @@
   <!-- Experience and Awards -->
 
   <div id="experience" class = "experience">
+
     <div class="container">
+
       <div class="row">
+        
         <div class = "col-lg-6 col-md-6">
-          <h2>Awards</h2>
+          
+            <h2>Awards</h2>
+
+            <div class="panel-group" id = "accordion">
+              
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle = "collapse" data-parent="#accordion" href = "#collapse1">SAP Mentor</a>
+                  </h4>
+                </div>
+                <div id = "collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    2007, 2008, 2009, 2010 - sapmentors.sap.com
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle = "collapse" data-parent="#accordion" href = "#collapse2">SAP Top SDN Contributor Award – Knowledge Management – 1st Place</a>
+                  </h4>
+                </div>
+                <div id = "collapse2" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    2007 - Certificate
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle = "collapse" data-parent="#accordion" href = "#collapse3">SAP Top SDN Contributor Award – Knowledge Management – 3rd Place</a>
+                  </h4>
+                </div>
+                <div id = "collapse3" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    2006 - Certificate
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle = "collapse" data-parent="#accordion" href = "#collapse4">SAP Top SDN Contributor Award – Knowledge Management – 2nd Place</a>
+                  </h4>
+                </div>
+                <div id = "collapse4" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    2005 - Certificate
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
         </div>
+
         <div class = "col-lg-6 col-md-6">
+          
+
+
           <h2>Experience</h2>
+
+          
+
+            <div class="row">
+
+              <div class = "col-lg-2 col-md-2">
+                <h1 class="years">19</h1>
+              </div> 
+
+              <div class = "col-lg-10 col-md-10">
+                <h3>Years of IT Service & Success</h3>
+                <p>I've been working IT business for almost two decades; I have twelve years of SAP experience and three years of Agile Management experience. </p>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class = "col-lg-2 col-md-2">
+                <h1 class="years">33</h1>
+              </div>  
+              <div class = "col-lg-10 col-md-10">
+                <h3>Completed Projects</h3>
+                <p>My portfolio shows projects that have been completed to the highest possible standards and to 100 percent customer satisfaction. Find out more by reading an abstract on the projects page. </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class = "col-lg-2 col-md-2">
+                <h1 class="years">22</h1>
+              </div>  
+              <div class = "col-lg-10 col-md-10">
+                <h3>Multinational companies that I've assisted</h3>
+                <p>View a list of the clients (from 3,000 to 80,000 employees) that I've worked with on the projects page. </p>
+              </div>
+
+          </div>
+
         </div>
+
       </div>
+
+
+
     </div>
+
+  </div>
+
+<!--   End of Experience -->
+
+<!--   Clients -->
+
+  <div class="clients" id = "clients">
+    
+    <div class="container">
+      
+      <div class="row">
+        
+        <h2 class = "trusted">Trusted by</h2>
+        <p class = "trusted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+        <div class = "col-lg-3 col-md-3">
+          <div class = "text-center" id = "adidas"><img src="images/adidas.png"></div>
+        </div>
+        <div class = "col-lg-3 col-md-3">
+          <div class = "text-center" id = "unicredit"><img src="images/unicredit.png"></div>
+        </div>
+        <div class = "col-lg-3 col-md-3">
+          <div class = "text-center"><img src="images/wowapp.png"></div>
+        </div>
+        <div class = "col-lg-3 col-md-3">
+          <div class = "text-center" id = "liberty"><img src="images/liberty.png"></div>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
 
