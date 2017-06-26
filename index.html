@@ -485,6 +485,26 @@
 
   <!-- End of Resume -->
 
+
+    <!-- smooth scrolling script -->
+      <script>
+
+      $(function () {
+
+        $('a[href^="#"]').click(function(event) {
+          var id = $(this).attr("href");
+          var offset = 20;
+          var target = $(id).offset().top - offset;
+
+          $('html, body').animate({scrollTop:target}, 500);
+          event.preventDefault();
+        });
+
+      });
+      
+      </script>
+    <!-- end smooth scrolling script -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
